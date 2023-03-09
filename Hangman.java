@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Hangman {
-    private static final String[] WORD_BANK = {"HIETT", "PLANTZ", "TREVOR", "COLEMAN"};
+    private static final String[] WORD_BANK = {"HIETT", "PLANTZ", "TREVER", "COLMAN"};
     private static final int MAX_GUESSES = 6;
 
     public static void main(String[] args) {
