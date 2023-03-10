@@ -9,6 +9,7 @@ Once the game is over, the player is shown the final result (whether they won or
 Guessing a Letter
 To guess a letter, input a single letter (either uppercase or lowercase) and press Enter. The game will tell you if the letter you guessed is in the word or not. If the letter is in the word, it will be revealed in the word; if not, you will lose one guess.
 Winning or Losing the Game
+ If the player makes an incorrect guess, we deduct points from their score. If they make a correct guess, we add points to their score. Finally, when the game is over, we print the final score along with the game result.
 The game continues until you either guess the word correctly or run out of guesses. If you guess the word correctly, you win! You will be show
 Playing Again
 If you would like to play again, simply run the Java program again. A new random word will be selected, and you can try to guess it again. Good luck!
